@@ -1,0 +1,25 @@
+/*Navigation section*/
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+.ul1{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+.li1{
+    float: left;
+}
+.li2{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.li2:hover{
+    background-color: #6f6f6f;
+}
+
