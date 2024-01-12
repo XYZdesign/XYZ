@@ -1,74 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="/CSS/styles.css">
-        <link rel="stylesheet" href="/CSS/media_sizing.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/media_sizing.css">
+  </head>
 
-    </head>
-    <style>
-      html{
-        background-color: rgb(255, 247, 238);
-      }
-    </style>
+  <style>
+    html{
+      background-color: rgb(255, 247, 238);
+    }
+  </style>
     
-    <body>
-      <!--Navigation-->
-      <nav id="nav__bar">
-        <div class="logo">Xin Yuan</div>
-        <div>
-          <ul class="nav__links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+  <body>
+    <!--Navigation-->
+    <nav id="nav__bar">
+      <div class="logo">Xin Yuan</div>
+      <div>
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <nav id="dropdown__nav">
+      <div class="logo">Xin Yuan</div>
+      <div class="dropdown__menu">
+        <div class="dropdown__icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </nav>
+        <div class="menu__links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="pic__container">
+        <img src="/Assets/Profile_pic.png" alt="Profile Picture"/>
+      </div>
 
-      <nav id="dropdown__nav">
-        <div class="logo">Xin Yuan</div>
-        <div class="dropdown__menu">
-          <div class="dropdown__icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="menu__links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Xin Yuan</h1>
+        <p class="section__text__p2">Computer Science student @NTU</p>
+        <div class="btn__container">
+          <button class="btn btn__colour__2" onclick="window.open('/')">Download Resume</button>
+          <button class="btn btn__colour__1" onclick="location.href='./#contact'">Contact Page</button>
         </div>
-      </nav>
-      <section id="profile">
-        <div class="pic__container">
-          <img src="/Assets/Profile_pic.png" alt="Profile Picture"/>
-        </div>
-        <div class="section__text">
-          <p class="section__text__p1">Hello, I'm</p>
-          <h1 class="title">Xin Yuan</h1>
-          <p class="section__text__p2">Computer Science student @NTU</p>
-          <div class="btn__container">
-            <button class="btn btn__colour__2" onclick="window.open('/')">Download Resume</button>
-            <button class="btn btn__colour__1" onclick="location.href='./#contact'">Contact Page</button>
-          </div>
-          <div id="socials__container">
-            <img src="/Assets/linkedin.png" alt="linkedin profile"
-            class="icon" onclick="location.href='https://www.linkedin.com/in/li-xin-yuan-wan-839280255/'"/>
+        <div id="socials__container">
+          <img src="/Assets/linkedin.png" alt="linkedin profile"
+          class="icon" onclick="location.href='https://www.linkedin.com/in/li-xin-yuan-wan-839280255/'"/>
 
-            <img src="/Assets/github.png" alt="github"
-            class="icon" onclick="location.href='https://github.com/XYZdesign'"/>
+          <img src="/Assets/github.png" alt="github"
+          class="icon" onclick="location.href='https://github.com/XYZdesign'"/>
           
-          </div>
         </div>
-      </section>
-      <script src="/JS/scripts.js"></script>
+      </div>
+    </section>
+    <script src="/JS/scripts.js"></script>
     </body>
 </html>
