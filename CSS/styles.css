@@ -206,18 +206,14 @@ section{
     gap: 1rem;
 }
 
-/* ICONS */
-.icon1 {
-    cursor: pointer;
-    height: 2.1rem;
-}
+/* Icons */
 
-.icon2 {
+.icon {
     cursor: pointer;
-    height: 1.85rem;
-}
+    height: 2.5rem;
+  }
   
-  /* BUTTONS */
+  /* Buttons */
   
   .btn__container {
     display: flex;
