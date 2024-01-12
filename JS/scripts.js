@@ -1,7 +1,6 @@
-const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.navbar__menu');
-
-menu.addEventListener('click', function() {
-  menu.classList.toggle('is-active');
-  menuLinks.classList.toggle('active');
-});
+function toggleMenu() {
+  const menu = document.querySelector(".menu__links");
+  const icon = document.querySelector(".dropdown__icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
