@@ -10,6 +10,11 @@
         <link rel="stylesheet" href="/CSS/styles.css">
 
     </head>
+    <style>
+      html{
+        background-color: rgb(255, 247, 238);
+      }
+    </style>
     
     <body>
       <!--Navigation-->
@@ -44,6 +49,23 @@
       <section id="profile">
         <div class="pic__container">
           <img src="/Assets/Profile_pic.png" alt="Profile Picture"/>
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Xin Yuan</h1>
+          <p class="section__text__p2">Computer Science student @NTU</p>
+          <div class="btn__container">
+            <button class="btn btn__colour__2" onclick="window.open('/')">Download Resume</button>
+            <button class="btn btn__colour__1" onclick="location.href='./#contact'">Contact Page</button>
+          </div>
+          <div id="socials__container">
+            <img src="/Assets/linkdin_icon.png" alt="linkedin profile"
+            class="icon1" onclick="location.href='https://www.linkedin.com/in/li-xin-yuan-wan-839280255/'"/>
+
+            <img src="/Assets/github_icon.png" alt="github"
+            class="icon2" onclick="location.href='https://github.com/XYZdesign'"/>
+          
+          </div>
         </div>
       </section>
       <script src="/JS/scripts.js"></script>
