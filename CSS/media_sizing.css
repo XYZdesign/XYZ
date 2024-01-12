@@ -1,0 +1,30 @@
+@media screen and (max-width: 1200px) {
+    #nav__bar {
+        display: none;
+    }  
+
+    #dropdown__nav {
+        display: flex;
+    }
+
+    #profile,
+    .section-container {
+    display: block;
+    }
+
+
+    section,
+    .section__container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .pic__container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+      }
+}
