@@ -149,3 +149,120 @@ a:hover {
 }
 
 /* Sections */
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section__container {
+    display: flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.pic__container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text__p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+  
+#socials__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICONS */
+.icon1 {
+    cursor: pointer;
+    height: 2.1rem;
+}
+
+.icon2 {
+    cursor: pointer;
+    height: 1.85rem;
+}
+  
+  /* BUTTONS */
+  
+  .btn__container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 6rem;
+  }
+  
+  .btn__color__1,
+  .btn__color__2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+  }
+  
+  .btn__color__1:hover,
+  .btn__color__2:hover {
+    cursor: pointer;
+  }
+  
+  .btn__color__1,
+  .btn__color__2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+  }
+  
+  .btn__color__1:hover {
+    background: rgb(0, 0, 0);
+  }
+  
+  .btn__color__2 {
+    background: none;
+  }
+  
+  .btn__color__2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+  }
+  
+  .btn__container {
+    gap: 1rem;
+  }
+
+  
