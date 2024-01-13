@@ -202,7 +202,13 @@ section{
 .icon {
     cursor: pointer;
     height: 2.5rem;
-  }
+}
+
+.icon1 {
+    cursor: pointer;
+    height: 2rem;
+}
+
   
   /* Buttons */
   
@@ -252,4 +258,8 @@ section{
     gap: 1rem;
   }
 
-  
+/* About Me */
+
+.date__colour {
+    color: rgb(187, 136, 34);
+}
