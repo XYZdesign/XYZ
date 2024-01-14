@@ -287,14 +287,30 @@ section{
 .details__container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
 
+.details__text__container {
+    padding: 1.5rem;
+    flex: 1;
+    text-align: center;
+    
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
 .section__container {
-    gap: 4rem;
-    height: 80%;
-  }
+    gap: 2rem;
+    height: 70%;
+}
+
+.text__container {
+    text-align: center;
+}
