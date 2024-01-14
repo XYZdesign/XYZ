@@ -263,3 +263,38 @@ section{
 .date__colour {
     color: rgb(187, 136, 34);
 }
+
+#about {
+    position: relative;
+}
+
+.about__container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about__details__container {
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.about__container,
+.about__details__container {
+    display: flex;
+}
+
+.details__container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section__container {
+    gap: 4rem;
+    height: 80%;
+  }
