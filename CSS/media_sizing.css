@@ -1,3 +1,17 @@
+@media screen and (max-width: 1400px){
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about__container {
+        flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #nav__bar {
         display: none;
@@ -12,6 +26,14 @@
     display: block;
     }
 
+    #experience, 
+    .experience__details__container {
+    margin-top: 2rem;
+    }
+
+    .arrow {
+        display: none;
+    }
 
     section,
     .section__container {
@@ -26,5 +48,9 @@
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
-      }
+    }
+
+    .about__container {
+        margin-top: 0;
+    }
 }
