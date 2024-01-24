@@ -383,3 +383,28 @@ article .icon {
     height: 2.5rem;
 }
 
+/* Project */
+#projects {
+    position: relative;
+  }
+  
+  .color__container {
+    border-color: rgb(163, 163, 163);
+
+  }
+  
+  .project__img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .project__title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  .project__btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+  }
