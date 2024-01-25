@@ -389,13 +389,19 @@ article .icon {
   }
   
   .color__container {
-    border-color: black;
+    border-color: black
   }
   
   .project__img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 50%;
+    height: 70%;
+  }
+
+  .project__img1 {
+    border-radius: 2rem;
+    width: 60%;
+    height: 70%;
   }
   
   .project__title {
